@@ -2,12 +2,12 @@
 @import url('reset.css');
 
 /* GoogleFonts */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Serif:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+sans+JP&family=Lora&display=swap');
 
 /* 全体 */
 body{
     font-size: 16px;
-    font-family: "Noto Sans JP";
+font-family:"Noto Sans JP";
 }
 
 /* 画像角丸処理 */
@@ -36,7 +36,7 @@ nav{
 }
 .header h1{
     font-size: 32px;
-    font-family: Serif;
+    font-family: "Lora";
 }
 nav ul{
   display: flex;
@@ -83,7 +83,7 @@ nav ul li:last-child::after {
 }
 .hero_text h2{
     font-size: 40px;
-    font-family: serif;
+    font-family: "Lora";
     margin: 0 0 20px 0;
 }
 
@@ -105,7 +105,7 @@ nav ul li:last-child::after {
 }
 .about_text h3{
     font-size: 36px;
-    font-family: serif;
+    font-family: Lora;
     padding: 0 0 20px 0;
 }
 
@@ -133,7 +133,7 @@ nav ul li:last-child::after {
 }
 .skill_text h3{
     font-size: 36px;
-    font-family: serif;
+    font-family: "Lora";
     margin: 20px 0;
 }
 .skill_back{
@@ -156,7 +156,7 @@ nav ul li:last-child::after {
 }
 .works_text h3{
     font-size: 32px;
-    font-family: serif;
+    font-family: "Lora";
     margin: 20px 0;
 }
 .works_box {
