@@ -29,6 +29,7 @@ HTML / CSS の基礎理解と、レイアウト・余白設計の練習を目的
 - Google Fonts
 - jQuery
 - WEBデザインMATOME
+- SACOCHAN-DESIGN.COM
 
 ## 参考デザイン
 住民AI 渋谷 みらい｜YOU MAKE SHIBUYA
