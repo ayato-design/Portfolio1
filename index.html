@@ -8,7 +8,7 @@
    <meta name="viewport" content="width=device-width,initial-scale=1">
  </head>
  <body>
-    <script src="material/java.js"></script>
+    <script src="https://code.jquery.com/jquery-4.0.0.js" integrity="sha256-9fsHeVnKBvqh3FB2HYu7g2xseAZ5MlN6Kz/qnkASV8U=" crossorigin="anonymous"></script>
 <header class="header">
 <h1 id="top">Profile Website</h1>
 </header>
@@ -92,6 +92,8 @@
         <li><a href="https://icooon-mono.com/" target="_blank">ICOOON MONO</a></li>
         <li><a href="https://charat.me/" target="_blank">CHARAT</a></li>
         <li><a href="https://fonts.google.com/" target="_blank">Google Fonts</a></li>
+        <li><a href="http://https://releases.jquery.com/" target="_blank">jQuery</a></li>
+        <li><a href="https://teach.web-represent.link/sudden-error-in-smooth-scrolling-implementation/" target="_blank">WEBデザインMATOME</a></li>
     </ul>
         <p>参考デザイン</p>
         <ul>
@@ -107,5 +109,22 @@
 <footer>
     <p>© 2026 Portfolio Study & Practice Project<br>This site is a personal learning project.</p>
 </footer>
+<script>
+// スムーススクロール(元：WEBデザインMATOME)
+$(function() {
+  $('a[href^="#"]').on('click', function(e) {
+    const href = $(this).attr('href');
+    // 空の # は無視
+    if (href === "#") return;
+    // 対象要素が存在しない場合も無視
+    const $target = $(href);
+    if ($target.length === 0) return;
+    e.preventDefault();
+    $('html, body').animate({
+      scrollTop: $target.offset().top
+    }, 500, 'linear');
+  });
+});
+</script>
  </body>
 </html>
