@@ -27,7 +27,7 @@ HTML / CSS の基礎理解と、レイアウト・余白設計の練習を目的
 - ICOOON MONO
 - CHARAT
 - Google Fonts
-- jQuery
+- HTML5 Dotcor
 - WEBデザインMATOME
 - SACOCHAN-DESIGN.COM
 
@@ -37,3 +37,4 @@ HTML / CSS の基礎理解と、レイアウト・余白設計の練習を目的
 
 ## 補足
 本作品は学習目的の模写であり、商用利用はしていません。
+
